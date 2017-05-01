@@ -9,18 +9,29 @@
       <p id="operator1"></p>
       <p id="operator2"></p>
       <p id="operator3"></p>
+      <p id="operator4"></p>
+      <p id="operator5"></p>
 
 
     <script>
     /** 変数に数字を詰めて計算する */
       var x = 5;
-      var y = 10;
+      var y = 11;
+      /** 足し算 */
       var z = x + y;
+      /** 引き算 */
       var a = y - x;
+      /** 掛け算 */
       var b = x * y;
+      /** 割り算 */
+      var c = y / x;
+      /** 余り */
+      var d = y % x;
       document.getElementById('operator1').innerHTML = z;
       document.getElementById('operator2').innerHTML = a;
       document.getElementById('operator3').innerHTML = b;
+      document.getElementById('operator4').innerHTML = c;
+      document.getElementById('operator5').innerHTML = d;
     </script>
     </body>
   </html>
