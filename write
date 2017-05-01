@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8"></meta>
+      <title>document.write</title>
+    </head>
+    <body>
+      <h1>JavaScript practice</h1>
+      <p>This is a pargaph</p>
+
+    <script>
+      document.write("Document write Hello World!!");
+      document.write(5 + 10);
+    </script>
+    </body>
+
+  </html>
