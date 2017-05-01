@@ -9,6 +9,7 @@
       <p>This is a pargaph</p>
 
     <script>
+    /** document.write method */
       document.write("Document write Hello World!!");
       document.write(5 + 10);
     </script>
