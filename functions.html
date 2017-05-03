@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8"/>
+      <title>JavaScript Function</title>
+    </head>
+    <body>
+      <h1>JavaScript Functions</h1>
+      <!-- pタグにidをつける -->
+      <p id="func"></p>
+
+      <script>
+        /** functionで二つの数字を処理する式を返す  */
+        function practice(p1, p2) {
+          return p1 + p2;
+        }
+        /** practiceの引数に数字を入れ、id= funcに入れる */
+        document.getElementById('func').innerHTML = practice(2,5);
+      </script>
+    </body>
+  </html>
