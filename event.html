@@ -10,5 +10,7 @@
       <button onclick="document.getElementById('evt').innerHTML = Date()">What time it is now? </button>
 
       <p id="evt"></p>
+      <!-- this.innerHTMLの場合、ボタンの中に時刻が表示される -->
+      <button onclick="this.innerHTML = Date()">this time</button>
     </body>
   </html>
