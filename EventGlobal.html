@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8"/>
+      <title>JavaScript Event</title>
+    </head>
+    <body>
+      <h1>JavaScript Event グローバル変数バージョン</h1>
+      <p id="evtGLB"></p>
+
+      <script>
+        /** グローバル変数としてdogNameを指定 */
+        var dogName = "Ringo";
+
+        /** Dog()を発動させる */
+        Dog();
+
+        /** functionの中にinnerHTMLを書く.ここでグローバル変数を使用する.
+            undefinedにはならずdogNameの値が表示される.*/
+        function Dog(){
+          document.getElementById("evtGLB").innerHTML = "Dog's name is " + dogName;
+        }
+      </script>
+    </body>
+  </html>
