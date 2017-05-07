@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8"/>
+      <title>JavaScript objects</title>
+    </head>
+    <body>
+      <h1>JavaScript Object</h1>
+      <h3>国名が入ります</h3>
+        <p id="obj1"></p>
+      <h3>首都が入ります</h3>
+        <p id="obj2"></p>
+      <h3>言語が入ります</h3>
+        <p id="obj3"></p>
+      <h3>地域が入ります</h3>
+        <p id="obj4"></p>
+
+
+        <script>
+        /** countryName, capital, language, placeはPropterty.
+             Japan, Tokyo, Japanese, AsiaはPropterty Value. */
+          var country = {
+            countryName: "Japan",
+            capital: "Tokyo",
+            language: "Japanese",
+            place: "Asia"
+          };
+          document.getElementById("obj1").innerHTML = country.countryName;
+          document.getElementById("obj2").innerHTML = country.capital;
+          document.getElementById("obj3").innerHTML = country.language;
+          document.getElementById("obj4").innerHTML = country.place;
+        </script>
+    </body>
+  </html>
