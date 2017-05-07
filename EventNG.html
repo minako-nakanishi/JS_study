@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8"/>
+      <title>JavaScript Event</title>
+    </head>
+    <body>
+      <h1>JavaScript Events 間違いバージョン</h1>
+      <p id="eventNG"><p>
+
+    <script>
+    /** Dogファンクションを発動させる */
+    Dog();
+
+    /**functionの中で指定したdogNameをfunction外で使用することを試みる。
+       結果は「not defined」となる*/
+    document.getElementById("eventNG").innerHTML = "The dog's name is " + dogName;
+
+    /** function内にdogNameを指定する. */
+      function Dog(){
+        var dogName = "Ringo";
+      }
+    </script>
+    </body>
+  </html>
