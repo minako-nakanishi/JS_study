@@ -28,7 +28,8 @@
           document.getElementById("obj1").innerHTML = country.countryName;
           document.getElementById("obj2").innerHTML = country.capital;
           document.getElementById("obj3").innerHTML = country.language;
-          document.getElementById("obj4").innerHTML = country.place;
+          /** イコールの右側（右辺）は以下のように書いても大丈夫です */
+          document.getElementById("obj4").innerHTML = country["place"];
         </script>
     </body>
   </html>
