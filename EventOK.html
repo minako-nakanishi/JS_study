@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8"/>
+      <title>JavaScript Event OK</title>
+    </head>
+    <body>
+      <h1>JavaScript Event OK バージョン</h1>
+      <h3>犬の名前</h3>
+      <p id="evtOK"></p>
+
+      <script>
+      /** Dogを発動させる.document.getElementById('evtOK').innerHTML
+          より前に書く.*/
+      Dog();
+
+      document.getElementById('evtOK').innerHTML = "Dog's name is " + dogName;
+
+      /** function内でvarを付けずにdogNameを指定する.varを付けないとグローバル変数と同じ働きをする. */
+        function Dog() {
+          dogName = "Ringo";
+        }
+      </script>
+    </body>
+  </html>
