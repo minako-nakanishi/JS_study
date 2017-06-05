@@ -16,5 +16,5 @@ console.log(infinity);
 const minfinity = -Infinity;
 console.log(minfinity);
 
-const nonNum = NaN;
+const nonNum = NaN;/** Not A Number */
 console.log("nonNum "+nonNum);
