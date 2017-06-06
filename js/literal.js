@@ -18,3 +18,5 @@ console.log(minfinity);
 
 const nonNum = NaN;/** Not A Number */
 console.log("nonNum "+nonNum);
+
+console.log("1/0= "+1/0);
