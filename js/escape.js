@@ -14,3 +14,7 @@ console.log(dialog2===dialog3);
 const dialog4 = `Wendy looked up and said "Don't do that!" to him`;
 console.log(dialog4);
 console.log(dialog4===dialog3);
+
+/** 文字列に/を含めたいとき */
+const slash = "This is slash \\ .Can you see it?";
+console.log(slash);
